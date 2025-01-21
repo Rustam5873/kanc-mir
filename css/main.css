@@ -21,7 +21,6 @@
     width: 50%;
     display: flex;
     flex-direction: row;
-
 }
 
 .nav_right {
@@ -124,3 +123,22 @@ input.submit {
     border-color: #54479b;
     padding: 8px 19px 9px;
 }
+
+.tab_nav {
+    background-color: #54479B;
+    padding: 20px 0 20px 0;
+    margin-top: 20px;
+}
+
+.navv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.a_nav {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: bold;
+}
+
