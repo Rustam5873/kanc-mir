@@ -161,11 +161,15 @@ input.submit {
 .txt_general {
     background-color: #bdbdbd21;
     border-radius: 10px;
+    margin-bottom: 20px;
     p {
         text-indent: 20px;
-        margin-top: 0;
         color: #555555;
         margin: 15px;
+    }
+
+    li {
+        color: #555555;
     }
     
     h2 {
@@ -174,5 +178,34 @@ input.submit {
     }
 }
 
+.product_card_popular {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
+.product_card {
+    text-align: center;
+    border: 1px solid rgb(236, 236, 236);
+    width: 100%;
+    max-width: 258px;
+    max-height: 366px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
 
+.product_card:hover {
+    opacity: 80%;
+}
+
+.card_img {
+    height: 170px;
+    width: 170px;
+}
+
+.price_card {
+    p {
+        font-weight: bold;
+    }
+}
