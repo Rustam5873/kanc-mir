@@ -209,3 +209,54 @@ input.submit {
         font-weight: bold;
     }
 }
+
+footer {
+    background-color: #383838;
+    color: white;
+    padding: 20px 0 20px 0;
+}
+
+.footer_gen {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact_footer {
+    p {
+        line-height: 50px; 
+    }
+}
+
+.number_footer {
+    p {
+        line-height: 50px;
+    }
+}
+
+.vk_github {
+    width: 50px;
+    height: 50px;
+}
+
+.txt_footer {
+    margin: 8px 0 20px 0;
+}
+
+.vk_git_txt {
+    text-decoration: none;
+    color: white;
+}
+
+.vk_git_txt:hover {
+    color:#6051AF
+}
+
+.git_footer {
+    margin-top: 20px;
+}
+
+.infotxt {
+    margin-top: 30px;
+    text-align: center;
+}
