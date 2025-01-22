@@ -158,12 +158,21 @@ input.submit {
     width: 585px;
 }
 
-p {
-    text-indent: 20px;
-    margin-top: 0;
-    color: #555555;
+.txt_general {
+    background-color: #bdbdbd21;
+    border-radius: 10px;
+    p {
+        text-indent: 20px;
+        margin-top: 0;
+        color: #555555;
+        margin: 15px;
+    }
+    
+    h2 {
+        color: #383838;
+        margin: 15px;
+    }
 }
 
-h2 {
-    color: #383838;
-}
+
+
